@@ -85,3 +85,6 @@ for dev in targets:
 EOF
 chmod +x /usr/local/bin/disks'
 ```
+
+Arch linux bash script, run it, and then type
+```disks```
