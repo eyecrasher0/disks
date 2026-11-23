@@ -1,4 +1,4 @@
-sudo bash -c 'cat << "EOF" > /usr/local/bin/disks
+```sudo bash -c 'cat << "EOF" > /usr/local/bin/disks
 #!/usr/bin/env python3
 import subprocess, json, re
 
@@ -84,3 +84,4 @@ for dev in targets:
     print("─"*72)
 EOF
 chmod +x /usr/local/bin/disks'
+```
